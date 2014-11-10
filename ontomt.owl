@@ -1,0 +1,2015 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE Ontology [
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY xml "http://www.w3.org/XML/1998/namespace" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://sharp.swu.bg/ontomt"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     ontologyIRI="http://sharp.swu.bg/ontomt"
+     versionIRI="http://sharp.swu.bg/ontomt/0.2.0">
+    <Prefix name="" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <Literal xml:lang="bg" datatypeIRI="&rdf;PlainLiteral">Онтология, която описва основните термини в музиката.</Literal>
+    </Annotation>
+    <Declaration>
+        <Class IRI="#AugmentedFifth"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AugmentedFourth"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AugmentedMajorSeventhChord"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AugmentedPrime"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AugmentedSecond"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AugmentedSeventh"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AugmentedSixth"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AugmentedThird"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AugmentedTriad"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Chord"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CompoundInterval"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DiminishedFifth"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DiminishedFourth"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DiminishedPrime"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DiminishedSecond"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DiminishedSeventh"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DiminishedSeventhChord"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DiminishedSixth"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DiminishedThird"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DiminishedTriad"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DominantSeventhChord"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fifth"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fourth"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HalfDiminishedSeventhChord"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Interval"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MajorSecond"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MajorSeventh"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MajorSeventhChord"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MajorSixth"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MajorThird"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MajorTriad"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MinorMajorSeventhChord"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MinorSecond"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MinorSeventh"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MinorSeventhChord"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MinorSixth"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MinorThird"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MinorTriad"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MusicalTerm"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Note"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NoteValue"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OctaveSegment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PerfectFifth"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PerfectFourth"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PerfectPrime"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PitchClassLabel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Prime"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RelativeDurationValue"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Rest"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RestValue"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Second"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Seventh"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SeventhChord"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SimpleInterval"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sixth"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Third"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Triad"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#belongsToOctave"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasAsAugmentedFourth"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasAsDiminishedFifth"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasAsFifth"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasAsFourth"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasAsMajorSecond"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasAsMajorSeventh"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasAsMajorSixth"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasAsMajorThird"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasAsMinorSecond"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasAsMinorSeventh"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasAsMinorSixth"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasAsMinorThird"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasAsPerfectFifth"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasAsPerfectFourth"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasAsSecond"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasAsSeventh"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasAsSixth"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasAsThird"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasDistanceWith"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasNoteValue"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasPitchClass"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasRoot"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isAugmentedFourthOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isDifferentThan"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isDiminishedFifthOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isFifthOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isFourthOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isHigherThan"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isLowerThan"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isMajorSecondOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isMajorSeventhOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isMajorSixthOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isMajorThirdOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isMinorSecondOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isMinorSeventhOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isMinorSixthOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isMinorThirdOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isOneOctaveAbove"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isOneOctaveBellow"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isPerfectFifthOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isPerfectFourthOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isRootOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isSecondOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isSeventhOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isSixthOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isThirdOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isThreeOctavesAbove"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isThreeOctavesBellow"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isTwoOctavesAbove"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isTwoOctavesBellow"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#a"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ais"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#aisis"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#as"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ases"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#b"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#bes"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#beses"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#bis"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#bisis"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#c"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ces"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ceses"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#cis"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#cisis"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#contraOctave"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#d"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#des"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#deses"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#dis"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#disis"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#doubleWhole"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#e"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#eight"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#eis"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#eisis"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#es"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#eses"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#f"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#fes"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#feses"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#fis"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#fisis"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#fiveLineOctave"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#fourLineOctave"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#g"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ges"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#geses"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#gis"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#gisis"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#greatOctave"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#half"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#hundredTwentyEighth"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#oneLineOctave"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#quarter"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#sixteenth"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#sixtyFourth"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#smallOctave"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#subContraOctave"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#thirtySecond"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#threeLineOctave"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#twoLineOctave"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#whole"/>
+    </Declaration>
+    <EquivalentClasses>
+        <Class IRI="#Note"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#MusicalTerm"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#belongsToOctave"/>
+                <Class IRI="#OctaveSegment"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasNoteValue"/>
+                <Class IRI="#NoteValue"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasPitchClass"/>
+                <Class IRI="#PitchClassLabel"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#OctaveSegment"/>
+        <ObjectOneOf>
+            <NamedIndividual IRI="#fiveLineOctave"/>
+            <NamedIndividual IRI="#fourLineOctave"/>
+            <NamedIndividual IRI="#smallOctave"/>
+            <NamedIndividual IRI="#oneLineOctave"/>
+            <NamedIndividual IRI="#contraOctave"/>
+            <NamedIndividual IRI="#twoLineOctave"/>
+            <NamedIndividual IRI="#threeLineOctave"/>
+            <NamedIndividual IRI="#greatOctave"/>
+            <NamedIndividual IRI="#subContraOctave"/>
+        </ObjectOneOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#PitchClassLabel"/>
+        <ObjectOneOf>
+            <NamedIndividual IRI="#c"/>
+            <NamedIndividual IRI="#b"/>
+            <NamedIndividual IRI="#e"/>
+            <NamedIndividual IRI="#eisis"/>
+            <NamedIndividual IRI="#d"/>
+            <NamedIndividual IRI="#g"/>
+            <NamedIndividual IRI="#f"/>
+            <NamedIndividual IRI="#deses"/>
+            <NamedIndividual IRI="#ces"/>
+            <NamedIndividual IRI="#dis"/>
+            <NamedIndividual IRI="#cis"/>
+            <NamedIndividual IRI="#des"/>
+            <NamedIndividual IRI="#eses"/>
+            <NamedIndividual IRI="#fisis"/>
+            <NamedIndividual IRI="#bis"/>
+            <NamedIndividual IRI="#beses"/>
+            <NamedIndividual IRI="#aisis"/>
+            <NamedIndividual IRI="#bes"/>
+            <NamedIndividual IRI="#ases"/>
+            <NamedIndividual IRI="#cisis"/>
+            <NamedIndividual IRI="#fis"/>
+            <NamedIndividual IRI="#disis"/>
+            <NamedIndividual IRI="#ais"/>
+            <NamedIndividual IRI="#ges"/>
+            <NamedIndividual IRI="#geses"/>
+            <NamedIndividual IRI="#ceses"/>
+            <NamedIndividual IRI="#es"/>
+            <NamedIndividual IRI="#feses"/>
+            <NamedIndividual IRI="#as"/>
+            <NamedIndividual IRI="#fes"/>
+            <NamedIndividual IRI="#eis"/>
+            <NamedIndividual IRI="#bisis"/>
+            <NamedIndividual IRI="#gisis"/>
+            <NamedIndividual IRI="#a"/>
+            <NamedIndividual IRI="#gis"/>
+        </ObjectOneOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#RelativeDurationValue"/>
+        <ObjectOneOf>
+            <NamedIndividual IRI="#quarter"/>
+            <NamedIndividual IRI="#sixteenth"/>
+            <NamedIndividual IRI="#doubleWhole"/>
+            <NamedIndividual IRI="#hundredTwentyEighth"/>
+            <NamedIndividual IRI="#sixtyFourth"/>
+            <NamedIndividual IRI="#eight"/>
+            <NamedIndividual IRI="#thirtySecond"/>
+            <NamedIndividual IRI="#whole"/>
+            <NamedIndividual IRI="#half"/>
+        </ObjectOneOf>
+    </EquivalentClasses>
+    <SubClassOf>
+        <Class IRI="#AugmentedFifth"/>
+        <Class IRI="#Fifth"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AugmentedFourth"/>
+        <Class IRI="#Fourth"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AugmentedMajorSeventhChord"/>
+        <Class IRI="#SeventhChord"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AugmentedPrime"/>
+        <Class IRI="#Prime"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AugmentedSecond"/>
+        <Class IRI="#Second"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AugmentedSeventh"/>
+        <Class IRI="#Seventh"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AugmentedSixth"/>
+        <Class IRI="#Sixth"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AugmentedThird"/>
+        <Class IRI="#Third"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AugmentedTriad"/>
+        <Class IRI="#Triad"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Chord"/>
+        <Class IRI="#MusicalTerm"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CompoundInterval"/>
+        <Class IRI="#Interval"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DiminishedFifth"/>
+        <Class IRI="#Fifth"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DiminishedFourth"/>
+        <Class IRI="#Fourth"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DiminishedPrime"/>
+        <Class IRI="#Prime"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DiminishedSecond"/>
+        <Class IRI="#Second"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DiminishedSeventh"/>
+        <Class IRI="#Seventh"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DiminishedSeventhChord"/>
+        <Class IRI="#SeventhChord"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DiminishedSixth"/>
+        <Class IRI="#Sixth"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DiminishedThird"/>
+        <Class IRI="#Third"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DiminishedTriad"/>
+        <Class IRI="#Triad"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DominantSeventhChord"/>
+        <Class IRI="#SeventhChord"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fifth"/>
+        <Class IRI="#SimpleInterval"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fourth"/>
+        <Class IRI="#SimpleInterval"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HalfDiminishedSeventhChord"/>
+        <Class IRI="#SeventhChord"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Interval"/>
+        <Class IRI="#MusicalTerm"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MajorSecond"/>
+        <Class IRI="#Second"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MajorSeventh"/>
+        <Class IRI="#Seventh"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MajorSeventhChord"/>
+        <Class IRI="#SeventhChord"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MajorSixth"/>
+        <Class IRI="#Sixth"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MajorThird"/>
+        <Class IRI="#Third"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MajorTriad"/>
+        <Class IRI="#Triad"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MinorMajorSeventhChord"/>
+        <Class IRI="#SeventhChord"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MinorSecond"/>
+        <Class IRI="#Second"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MinorSeventh"/>
+        <Class IRI="#Seventh"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MinorSeventhChord"/>
+        <Class IRI="#SeventhChord"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MinorSixth"/>
+        <Class IRI="#Sixth"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MinorThird"/>
+        <Class IRI="#Third"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MinorTriad"/>
+        <Class IRI="#Triad"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NoteValue"/>
+        <Class IRI="#RelativeDurationValue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OctaveSegment"/>
+        <Class IRI="#MusicalTerm"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PerfectFifth"/>
+        <Class IRI="#Fifth"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PerfectFourth"/>
+        <Class IRI="#Fourth"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PerfectPrime"/>
+        <Class IRI="#Prime"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PitchClassLabel"/>
+        <Class IRI="#MusicalTerm"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Prime"/>
+        <Class IRI="#SimpleInterval"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RelativeDurationValue"/>
+        <Class IRI="#MusicalTerm"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Rest"/>
+        <Class IRI="#MusicalTerm"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RestValue"/>
+        <Class IRI="#RelativeDurationValue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Second"/>
+        <Class IRI="#SimpleInterval"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Seventh"/>
+        <Class IRI="#SimpleInterval"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SeventhChord"/>
+        <Class IRI="#Chord"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SimpleInterval"/>
+        <Class IRI="#Interval"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sixth"/>
+        <Class IRI="#SimpleInterval"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Third"/>
+        <Class IRI="#SimpleInterval"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Triad"/>
+        <Class IRI="#Chord"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#AugmentedFifth"/>
+        <Class IRI="#DiminishedFifth"/>
+        <Class IRI="#PerfectFifth"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#AugmentedFourth"/>
+        <Class IRI="#DiminishedFourth"/>
+        <Class IRI="#PerfectFourth"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#AugmentedMajorSeventhChord"/>
+        <Class IRI="#DiminishedSeventhChord"/>
+        <Class IRI="#DominantSeventhChord"/>
+        <Class IRI="#HalfDiminishedSeventhChord"/>
+        <Class IRI="#MajorSeventhChord"/>
+        <Class IRI="#MinorMajorSeventhChord"/>
+        <Class IRI="#MinorSeventhChord"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#AugmentedPrime"/>
+        <Class IRI="#DiminishedPrime"/>
+        <Class IRI="#PerfectPrime"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#AugmentedSecond"/>
+        <Class IRI="#DiminishedSecond"/>
+        <Class IRI="#MajorSecond"/>
+        <Class IRI="#MinorSecond"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#AugmentedSeventh"/>
+        <Class IRI="#DiminishedSeventh"/>
+        <Class IRI="#MajorSeventh"/>
+        <Class IRI="#MinorSeventh"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#AugmentedSixth"/>
+        <Class IRI="#DiminishedSixth"/>
+        <Class IRI="#MajorSixth"/>
+        <Class IRI="#MinorSixth"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#AugmentedThird"/>
+        <Class IRI="#DiminishedThird"/>
+        <Class IRI="#MajorThird"/>
+        <Class IRI="#MinorThird"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#AugmentedTriad"/>
+        <Class IRI="#DiminishedTriad"/>
+        <Class IRI="#MajorTriad"/>
+        <Class IRI="#MinorTriad"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Chord"/>
+        <Class IRI="#Interval"/>
+        <Class IRI="#Note"/>
+        <Class IRI="#OctaveSegment"/>
+        <Class IRI="#PitchClassLabel"/>
+        <Class IRI="#RelativeDurationValue"/>
+        <Class IRI="#Rest"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#CompoundInterval"/>
+        <Class IRI="#SimpleInterval"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Fifth"/>
+        <Class IRI="#Fourth"/>
+        <Class IRI="#Prime"/>
+        <Class IRI="#Second"/>
+        <Class IRI="#Seventh"/>
+        <Class IRI="#Sixth"/>
+        <Class IRI="#Third"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#NoteValue"/>
+        <Class IRI="#RestValue"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#SeventhChord"/>
+        <Class IRI="#Triad"/>
+    </DisjointClasses>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#a"/>
+        <NamedIndividual IRI="#ais"/>
+        <NamedIndividual IRI="#aisis"/>
+        <NamedIndividual IRI="#as"/>
+        <NamedIndividual IRI="#ases"/>
+        <NamedIndividual IRI="#b"/>
+        <NamedIndividual IRI="#bes"/>
+        <NamedIndividual IRI="#beses"/>
+        <NamedIndividual IRI="#bis"/>
+        <NamedIndividual IRI="#bisis"/>
+        <NamedIndividual IRI="#c"/>
+        <NamedIndividual IRI="#ces"/>
+        <NamedIndividual IRI="#ceses"/>
+        <NamedIndividual IRI="#cis"/>
+        <NamedIndividual IRI="#cisis"/>
+        <NamedIndividual IRI="#d"/>
+        <NamedIndividual IRI="#des"/>
+        <NamedIndividual IRI="#deses"/>
+        <NamedIndividual IRI="#dis"/>
+        <NamedIndividual IRI="#disis"/>
+        <NamedIndividual IRI="#e"/>
+        <NamedIndividual IRI="#eis"/>
+        <NamedIndividual IRI="#eisis"/>
+        <NamedIndividual IRI="#es"/>
+        <NamedIndividual IRI="#eses"/>
+        <NamedIndividual IRI="#f"/>
+        <NamedIndividual IRI="#fes"/>
+        <NamedIndividual IRI="#feses"/>
+        <NamedIndividual IRI="#fis"/>
+        <NamedIndividual IRI="#fisis"/>
+        <NamedIndividual IRI="#g"/>
+        <NamedIndividual IRI="#ges"/>
+        <NamedIndividual IRI="#geses"/>
+        <NamedIndividual IRI="#gis"/>
+        <NamedIndividual IRI="#gisis"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#contraOctave"/>
+        <NamedIndividual IRI="#fiveLineOctave"/>
+        <NamedIndividual IRI="#fourLineOctave"/>
+        <NamedIndividual IRI="#greatOctave"/>
+        <NamedIndividual IRI="#oneLineOctave"/>
+        <NamedIndividual IRI="#smallOctave"/>
+        <NamedIndividual IRI="#subContraOctave"/>
+        <NamedIndividual IRI="#threeLineOctave"/>
+        <NamedIndividual IRI="#twoLineOctave"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#doubleWhole"/>
+        <NamedIndividual IRI="#eight"/>
+        <NamedIndividual IRI="#half"/>
+        <NamedIndividual IRI="#hundredTwentyEighth"/>
+        <NamedIndividual IRI="#quarter"/>
+        <NamedIndividual IRI="#sixteenth"/>
+        <NamedIndividual IRI="#sixtyFourth"/>
+        <NamedIndividual IRI="#thirtySecond"/>
+        <NamedIndividual IRI="#whole"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#quarter"/>
+        <NamedIndividual IRI="#whole"/>
+    </DifferentIndividuals>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isMajorSecondOf"/>
+        <NamedIndividual IRI="#a"/>
+        <NamedIndividual IRI="#g"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isMinorSecondOf"/>
+        <NamedIndividual IRI="#a"/>
+        <NamedIndividual IRI="#gis"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isMajorSecondOf"/>
+        <NamedIndividual IRI="#ais"/>
+        <NamedIndividual IRI="#gis"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isMinorSecondOf"/>
+        <NamedIndividual IRI="#ais"/>
+        <NamedIndividual IRI="#gisis"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isMajorSecondOf"/>
+        <NamedIndividual IRI="#aisis"/>
+        <NamedIndividual IRI="#gisis"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isMajorSecondOf"/>
+        <NamedIndividual IRI="#as"/>
+        <NamedIndividual IRI="#ges"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isMinorSecondOf"/>
+        <NamedIndividual IRI="#as"/>
+        <NamedIndividual IRI="#g"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isMajorSecondOf"/>
+        <NamedIndividual IRI="#ases"/>
+        <NamedIndividual IRI="#geses"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isMinorSecondOf"/>
+        <NamedIndividual IRI="#ases"/>
+        <NamedIndividual IRI="#ges"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isMajorSecondOf"/>
+        <NamedIndividual IRI="#b"/>
+        <NamedIndividual IRI="#a"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isMinorSecondOf"/>
+        <NamedIndividual IRI="#b"/>
+        <NamedIndividual IRI="#ais"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isMajorSecondOf"/>
+        <NamedIndividual IRI="#bes"/>
+        <NamedIndividual IRI="#as"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isMinorSecondOf"/>
+        <NamedIndividual IRI="#bes"/>
+        <NamedIndividual IRI="#a"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isMajorSecondOf"/>
+        <NamedIndividual IRI="#beses"/>
+        <NamedIndividual IRI="#ases"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isMinorSecondOf"/>
+        <NamedIndividual IRI="#beses"/>
+        <NamedIndividual IRI="#as"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isMajorSecondOf"/>
+        <NamedIndividual IRI="#bis"/>
+        <NamedIndividual IRI="#ais"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isMinorSecondOf"/>
+        <NamedIndividual IRI="#bis"/>
+        <NamedIndividual IRI="#aisis"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isMajorSecondOf"/>
+        <NamedIndividual IRI="#bisis"/>
+        <NamedIndividual IRI="#aisis"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isMajorSecondOf"/>
+        <NamedIndividual IRI="#c"/>
+        <NamedIndividual IRI="#bes"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isMinorSecondOf"/>
+        <NamedIndividual IRI="#c"/>
+        <NamedIndividual IRI="#b"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isMajorSecondOf"/>
+        <NamedIndividual IRI="#ces"/>
+        <NamedIndividual IRI="#beses"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isMinorSecondOf"/>
+        <NamedIndividual IRI="#ces"/>
+        <NamedIndividual IRI="#bes"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isMinorSecondOf"/>
+        <NamedIndividual IRI="#ceses"/>
+        <NamedIndividual IRI="#beses"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isMajorSecondOf"/>
+        <NamedIndividual IRI="#cis"/>
+        <NamedIndividual IRI="#b"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isMinorSecondOf"/>
+        <NamedIndividual IRI="#cis"/>
+        <NamedIndividual IRI="#bis"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isMajorSecondOf"/>
+        <NamedIndividual IRI="#cisis"/>
+        <NamedIndividual IRI="#bis"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isMinorSecondOf"/>
+        <NamedIndividual IRI="#cisis"/>
+        <NamedIndividual IRI="#bisis"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isOneOctaveAbove"/>
+        <NamedIndividual IRI="#contraOctave"/>
+        <NamedIndividual IRI="#subContraOctave"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isMajorSecondOf"/>
+        <NamedIndividual IRI="#d"/>
+        <NamedIndividual IRI="#c"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isMinorSecondOf"/>
+        <NamedIndividual IRI="#d"/>
+        <NamedIndividual IRI="#cis"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isMajorSecondOf"/>
+        <NamedIndividual IRI="#des"/>
+        <NamedIndividual IRI="#ces"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isMinorSecondOf"/>
+        <NamedIndividual IRI="#des"/>
+        <NamedIndividual IRI="#c"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isMajorSecondOf"/>
+        <NamedIndividual IRI="#deses"/>
+        <NamedIndividual IRI="#ceses"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isMinorSecondOf"/>
+        <NamedIndividual IRI="#deses"/>
+        <NamedIndividual IRI="#ces"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isMajorSecondOf"/>
+        <NamedIndividual IRI="#dis"/>
+        <NamedIndividual IRI="#cis"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isMinorSecondOf"/>
+        <NamedIndividual IRI="#dis"/>
+        <NamedIndividual IRI="#cisis"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isMajorSecondOf"/>
+        <NamedIndividual IRI="#disis"/>
+        <NamedIndividual IRI="#cisis"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isMajorSecondOf"/>
+        <NamedIndividual IRI="#e"/>
+        <NamedIndividual IRI="#d"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isMinorSecondOf"/>
+        <NamedIndividual IRI="#e"/>
+        <NamedIndividual IRI="#dis"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isMajorSecondOf"/>
+        <NamedIndividual IRI="#eis"/>
+        <NamedIndividual IRI="#dis"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isMinorSecondOf"/>
+        <NamedIndividual IRI="#eis"/>
+        <NamedIndividual IRI="#disis"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isMajorSecondOf"/>
+        <NamedIndividual IRI="#eisis"/>
+        <NamedIndividual IRI="#disis"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isMajorSecondOf"/>
+        <NamedIndividual IRI="#es"/>
+        <NamedIndividual IRI="#des"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isMinorSecondOf"/>
+        <NamedIndividual IRI="#es"/>
+        <NamedIndividual IRI="#d"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isMajorSecondOf"/>
+        <NamedIndividual IRI="#eses"/>
+        <NamedIndividual IRI="#deses"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isMinorSecondOf"/>
+        <NamedIndividual IRI="#eses"/>
+        <NamedIndividual IRI="#des"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isMajorSecondOf"/>
+        <NamedIndividual IRI="#f"/>
+        <NamedIndividual IRI="#es"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isMinorSecondOf"/>
+        <NamedIndividual IRI="#f"/>
+        <NamedIndividual IRI="#e"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isMajorSecondOf"/>
+        <NamedIndividual IRI="#fes"/>
+        <NamedIndividual IRI="#eses"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isMinorSecondOf"/>
+        <NamedIndividual IRI="#fes"/>
+        <NamedIndividual IRI="#es"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isMinorSecondOf"/>
+        <NamedIndividual IRI="#feses"/>
+        <NamedIndividual IRI="#eses"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isMajorSecondOf"/>
+        <NamedIndividual IRI="#fis"/>
+        <NamedIndividual IRI="#e"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isMinorSecondOf"/>
+        <NamedIndividual IRI="#fis"/>
+        <NamedIndividual IRI="#eis"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isMajorSecondOf"/>
+        <NamedIndividual IRI="#fisis"/>
+        <NamedIndividual IRI="#eis"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isMinorSecondOf"/>
+        <NamedIndividual IRI="#fisis"/>
+        <NamedIndividual IRI="#eisis"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isOneOctaveAbove"/>
+        <NamedIndividual IRI="#fiveLineOctave"/>
+        <NamedIndividual IRI="#fourLineOctave"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isOneOctaveAbove"/>
+        <NamedIndividual IRI="#fourLineOctave"/>
+        <NamedIndividual IRI="#threeLineOctave"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isMajorSecondOf"/>
+        <NamedIndividual IRI="#g"/>
+        <NamedIndividual IRI="#f"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isMinorSecondOf"/>
+        <NamedIndividual IRI="#g"/>
+        <NamedIndividual IRI="#fis"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isMajorSecondOf"/>
+        <NamedIndividual IRI="#ges"/>
+        <NamedIndividual IRI="#fes"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isMinorSecondOf"/>
+        <NamedIndividual IRI="#ges"/>
+        <NamedIndividual IRI="#f"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isMajorSecondOf"/>
+        <NamedIndividual IRI="#geses"/>
+        <NamedIndividual IRI="#feses"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isMinorSecondOf"/>
+        <NamedIndividual IRI="#geses"/>
+        <NamedIndividual IRI="#fes"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isMajorSecondOf"/>
+        <NamedIndividual IRI="#gis"/>
+        <NamedIndividual IRI="#fis"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isMinorSecondOf"/>
+        <NamedIndividual IRI="#gis"/>
+        <NamedIndividual IRI="#fisis"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isMajorSecondOf"/>
+        <NamedIndividual IRI="#gisis"/>
+        <NamedIndividual IRI="#fisis"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isOneOctaveAbove"/>
+        <NamedIndividual IRI="#greatOctave"/>
+        <NamedIndividual IRI="#contraOctave"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isOneOctaveAbove"/>
+        <NamedIndividual IRI="#oneLineOctave"/>
+        <NamedIndividual IRI="#smallOctave"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isOneOctaveAbove"/>
+        <NamedIndividual IRI="#smallOctave"/>
+        <NamedIndividual IRI="#greatOctave"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isOneOctaveAbove"/>
+        <NamedIndividual IRI="#threeLineOctave"/>
+        <NamedIndividual IRI="#twoLineOctave"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isOneOctaveAbove"/>
+        <NamedIndividual IRI="#twoLineOctave"/>
+        <NamedIndividual IRI="#oneLineOctave"/>
+    </ObjectPropertyAssertion>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasAsAugmentedFourth"/>
+        <ObjectProperty IRI="#hasAsFourth"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasAsDiminishedFifth"/>
+        <ObjectProperty IRI="#hasAsFifth"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasAsFifth"/>
+        <ObjectProperty IRI="#hasDistanceWith"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasAsFourth"/>
+        <ObjectProperty IRI="#hasDistanceWith"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasAsMajorSecond"/>
+        <ObjectProperty IRI="#hasAsSecond"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasAsMajorSeventh"/>
+        <ObjectProperty IRI="#hasAsSeventh"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasAsMajorSixth"/>
+        <ObjectProperty IRI="#hasAsSixth"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasAsMajorThird"/>
+        <ObjectProperty IRI="#hasAsThird"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasAsMinorSecond"/>
+        <ObjectProperty IRI="#hasAsSecond"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasAsMinorSeventh"/>
+        <ObjectProperty IRI="#hasAsSeventh"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasAsMinorSixth"/>
+        <ObjectProperty IRI="#hasAsSixth"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasAsMinorThird"/>
+        <ObjectProperty IRI="#hasAsThird"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasAsPerfectFifth"/>
+        <ObjectProperty IRI="#hasAsFifth"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasAsPerfectFourth"/>
+        <ObjectProperty IRI="#hasAsFourth"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasAsSecond"/>
+        <ObjectProperty IRI="#hasDistanceWith"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasAsSeventh"/>
+        <ObjectProperty IRI="#hasDistanceWith"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasAsSixth"/>
+        <ObjectProperty IRI="#hasDistanceWith"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasAsThird"/>
+        <ObjectProperty IRI="#hasDistanceWith"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasDistanceWith"/>
+        <ObjectProperty IRI="#isDifferentThan"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isAugmentedFourthOf"/>
+        <ObjectProperty IRI="#isFourthOf"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isDiminishedFifthOf"/>
+        <ObjectProperty IRI="#isFifthOf"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isFifthOf"/>
+        <ObjectProperty IRI="#hasDistanceWith"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isFourthOf"/>
+        <ObjectProperty IRI="#hasDistanceWith"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isHigherThan"/>
+        <ObjectProperty IRI="#isDifferentThan"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isLowerThan"/>
+        <ObjectProperty IRI="#isDifferentThan"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isMajorSecondOf"/>
+        <ObjectProperty IRI="#isSecondOf"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isMajorSeventhOf"/>
+        <ObjectProperty IRI="#isSeventhOf"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isMajorSixthOf"/>
+        <ObjectProperty IRI="#isSixthOf"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isMajorThirdOf"/>
+        <ObjectProperty IRI="#isThirdOf"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isMinorSecondOf"/>
+        <ObjectProperty IRI="#isSecondOf"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isMinorSeventhOf"/>
+        <ObjectProperty IRI="#isSeventhOf"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isMinorSixthOf"/>
+        <ObjectProperty IRI="#isSixthOf"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isMinorThirdOf"/>
+        <ObjectProperty IRI="#isThirdOf"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isOneOctaveAbove"/>
+        <ObjectProperty IRI="#isHigherThan"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isOneOctaveBellow"/>
+        <ObjectProperty IRI="#isLowerThan"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isPerfectFifthOf"/>
+        <ObjectProperty IRI="#isFifthOf"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isPerfectFourthOf"/>
+        <ObjectProperty IRI="#isFourthOf"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isSecondOf"/>
+        <ObjectProperty IRI="#hasDistanceWith"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isSeventhOf"/>
+        <ObjectProperty IRI="#hasDistanceWith"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isSixthOf"/>
+        <ObjectProperty IRI="#hasDistanceWith"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isThirdOf"/>
+        <ObjectProperty IRI="#hasDistanceWith"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isThreeOctavesAbove"/>
+        <ObjectProperty IRI="#isHigherThan"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isThreeOctavesBellow"/>
+        <ObjectProperty IRI="#isLowerThan"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isTwoOctavesAbove"/>
+        <ObjectProperty IRI="#isHigherThan"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isTwoOctavesBellow"/>
+        <ObjectProperty IRI="#isLowerThan"/>
+    </SubObjectPropertyOf>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#isAugmentedFourthOf"/>
+        <ObjectProperty IRI="#hasAsAugmentedFourth"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#isDiminishedFifthOf"/>
+        <ObjectProperty IRI="#hasAsDiminishedFifth"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#isMajorSecondOf"/>
+        <ObjectProperty IRI="#hasAsMajorSecond"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasAsMajorSeventh"/>
+        <ObjectProperty IRI="#isMajorSeventhOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#isMajorSixthOf"/>
+        <ObjectProperty IRI="#hasAsMajorSixth"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasAsMajorThird"/>
+        <ObjectProperty IRI="#isMajorThirdOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#isMinorSecondOf"/>
+        <ObjectProperty IRI="#hasAsMinorSecond"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasAsMinorSeventh"/>
+        <ObjectProperty IRI="#isMinorSeventhOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#isMinorSixthOf"/>
+        <ObjectProperty IRI="#hasAsMinorSixth"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasAsMinorThird"/>
+        <ObjectProperty IRI="#isMinorThirdOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasAsPerfectFifth"/>
+        <ObjectProperty IRI="#isPerfectFifthOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#isPerfectFourthOf"/>
+        <ObjectProperty IRI="#hasAsPerfectFourth"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#isRootOf"/>
+        <ObjectProperty IRI="#hasRoot"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#isHigherThan"/>
+        <ObjectProperty IRI="#isLowerThan"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#isOneOctaveBellow"/>
+        <ObjectProperty IRI="#isOneOctaveAbove"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#isThreeOctavesBellow"/>
+        <ObjectProperty IRI="#isThreeOctavesAbove"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#isTwoOctavesBellow"/>
+        <ObjectProperty IRI="#isTwoOctavesAbove"/>
+    </InverseObjectProperties>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#belongsToOctave"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#hasPitchClass"/>
+    </FunctionalObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="#isHigherThan"/>
+    </TransitiveObjectProperty>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#belongsToOctave"/>
+        <Class IRI="#Note"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasDistanceWith"/>
+        <ObjectUnionOf>
+            <Class IRI="#Note"/>
+            <Class IRI="#PitchClassLabel"/>
+        </ObjectUnionOf>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasNoteValue"/>
+        <Class IRI="#Note"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasPitchClass"/>
+        <Class IRI="#Note"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasRoot"/>
+        <Class IRI="#Chord"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isHigherThan"/>
+        <ObjectUnionOf>
+            <Class IRI="#Note"/>
+            <Class IRI="#OctaveSegment"/>
+        </ObjectUnionOf>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isLowerThan"/>
+        <ObjectUnionOf>
+            <Class IRI="#Note"/>
+            <Class IRI="#OctaveSegment"/>
+        </ObjectUnionOf>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#belongsToOctave"/>
+        <Class IRI="#OctaveSegment"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasDistanceWith"/>
+        <ObjectUnionOf>
+            <Class IRI="#Note"/>
+            <Class IRI="#PitchClassLabel"/>
+        </ObjectUnionOf>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasNoteValue"/>
+        <Class IRI="#NoteValue"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasPitchClass"/>
+        <Class IRI="#PitchClassLabel"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasRoot"/>
+        <Class IRI="#Note"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isHigherThan"/>
+        <ObjectUnionOf>
+            <Class IRI="#Note"/>
+            <Class IRI="#OctaveSegment"/>
+        </ObjectUnionOf>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isLowerThan"/>
+        <ObjectUnionOf>
+            <Class IRI="#Note"/>
+            <Class IRI="#OctaveSegment"/>
+        </ObjectUnionOf>
+    </ObjectPropertyRange>
+    <SubObjectPropertyOf>
+        <ObjectPropertyChain>
+            <ObjectProperty IRI="#isMajorSecondOf"/>
+            <ObjectProperty IRI="#isMajorSecondOf"/>
+        </ObjectPropertyChain>
+        <ObjectProperty IRI="#isMajorThirdOf"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectPropertyChain>
+            <ObjectProperty IRI="#isMajorSecondOf"/>
+            <ObjectProperty IRI="#isMinorSecondOf"/>
+        </ObjectPropertyChain>
+        <ObjectProperty IRI="#isMinorThirdOf"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectPropertyChain>
+            <ObjectProperty IRI="#isMajorSecondOf"/>
+            <ObjectProperty IRI="#isMajorSecondOf"/>
+            <ObjectProperty IRI="#isMajorSecondOf"/>
+        </ObjectPropertyChain>
+        <ObjectProperty IRI="#isAugmentedFourthOf"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectPropertyChain>
+            <ObjectProperty IRI="#isMajorSecondOf"/>
+            <ObjectProperty IRI="#isMinorSecondOf"/>
+            <ObjectProperty IRI="#isMajorSecondOf"/>
+            <ObjectProperty IRI="#isMinorSecondOf"/>
+        </ObjectPropertyChain>
+        <ObjectProperty IRI="#isDiminishedFifthOf"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectPropertyChain>
+            <ObjectProperty IRI="#isMajorSecondOf"/>
+            <ObjectProperty IRI="#isMajorSecondOf"/>
+            <ObjectProperty IRI="#isMajorSecondOf"/>
+            <ObjectProperty IRI="#isMinorSecondOf"/>
+        </ObjectPropertyChain>
+        <ObjectProperty IRI="#isPerfectFifthOf"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectPropertyChain>
+            <ObjectProperty IRI="#isMajorSecondOf"/>
+            <ObjectProperty IRI="#isMajorSecondOf"/>
+            <ObjectProperty IRI="#isMajorSecondOf"/>
+            <ObjectProperty IRI="#isMinorSecondOf"/>
+            <ObjectProperty IRI="#isMajorSecondOf"/>
+        </ObjectPropertyChain>
+        <ObjectProperty IRI="#isMajorSixthOf"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectPropertyChain>
+            <ObjectProperty IRI="#isMajorSecondOf"/>
+            <ObjectProperty IRI="#isMinorSecondOf"/>
+            <ObjectProperty IRI="#isMajorSecondOf"/>
+            <ObjectProperty IRI="#isMinorSecondOf"/>
+            <ObjectProperty IRI="#isMajorSecondOf"/>
+        </ObjectPropertyChain>
+        <ObjectProperty IRI="#isMinorSixthOf"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectPropertyChain>
+            <ObjectProperty IRI="#isMajorSecondOf"/>
+            <ObjectProperty IRI="#isMajorSecondOf"/>
+            <ObjectProperty IRI="#isMajorSecondOf"/>
+            <ObjectProperty IRI="#isMinorSecondOf"/>
+            <ObjectProperty IRI="#isMajorSecondOf"/>
+            <ObjectProperty IRI="#isMajorSecondOf"/>
+        </ObjectPropertyChain>
+        <ObjectProperty IRI="#isMajorSeventhOf"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectPropertyChain>
+            <ObjectProperty IRI="#isMajorSecondOf"/>
+            <ObjectProperty IRI="#isMajorSecondOf"/>
+            <ObjectProperty IRI="#isMajorSecondOf"/>
+            <ObjectProperty IRI="#isMinorSecondOf"/>
+            <ObjectProperty IRI="#isMajorSecondOf"/>
+            <ObjectProperty IRI="#isMinorSecondOf"/>
+        </ObjectPropertyChain>
+        <ObjectProperty IRI="#isMinorSeventhOf"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectPropertyChain>
+            <ObjectProperty IRI="#isMajorSecondOf"/>
+            <ObjectProperty IRI="#isMajorSecondOf"/>
+            <ObjectProperty IRI="#isMinorSecondOf"/>
+        </ObjectPropertyChain>
+        <ObjectProperty IRI="#isPerfectFourthOf"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectPropertyChain>
+            <ObjectProperty IRI="#isOneOctaveAbove"/>
+            <ObjectProperty IRI="#isOneOctaveAbove"/>
+        </ObjectPropertyChain>
+        <ObjectProperty IRI="#isTwoOctavesAbove"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectPropertyChain>
+            <ObjectProperty IRI="#isTwoOctavesAbove"/>
+            <ObjectProperty IRI="#isOneOctaveAbove"/>
+        </ObjectPropertyChain>
+        <ObjectProperty IRI="#isThreeOctavesAbove"/>
+    </SubObjectPropertyOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#AugmentedMajorSeventhChord</IRI>
+        <Literal xml:lang="bg" datatypeIRI="&rdf;PlainLiteral">Полуувеличено четиризвучие</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#AugmentedTriad</IRI>
+        <Literal xml:lang="bg" datatypeIRI="&rdf;PlainLiteral">Увеличено тризвучие</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Chord</IRI>
+        <Literal xml:lang="bg" datatypeIRI="&rdf;PlainLiteral">Акорд</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CompoundInterval</IRI>
+        <Literal xml:lang="bg" datatypeIRI="&rdf;PlainLiteral">Сложен интервал</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CompoundInterval</IRI>
+        <Literal xml:lang="bg" datatypeIRI="&rdf;PlainLiteral">Съставен интервал</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DiminishedSeventhChord</IRI>
+        <Literal xml:lang="bg" datatypeIRI="&rdf;PlainLiteral">Умалено четиризвучие</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DiminishedTriad</IRI>
+        <Literal xml:lang="bg" datatypeIRI="&rdf;PlainLiteral">Умалено тризвучие</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DominantSeventhChord</IRI>
+        <Literal xml:lang="bg" datatypeIRI="&rdf;PlainLiteral">Доминантово четиризвучие</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DominantSeventhChord</IRI>
+        <Literal xml:lang="bg" datatypeIRI="&rdf;PlainLiteral">Мажорно-малко четиризвучие</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Fifth</IRI>
+        <Literal xml:lang="bg" datatypeIRI="&rdf;PlainLiteral">Квинта</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Fourth</IRI>
+        <Literal xml:lang="bg" datatypeIRI="&rdf;PlainLiteral">Кварта</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#HalfDiminishedSeventhChord</IRI>
+        <Literal xml:lang="bg" datatypeIRI="&rdf;PlainLiteral">Полуумалено четиризвучие</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#MajorSeventhChord</IRI>
+        <Literal xml:lang="bg" datatypeIRI="&rdf;PlainLiteral">Мажорно-голямо четиризвучие</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#MajorTriad</IRI>
+        <Literal xml:lang="bg" datatypeIRI="&rdf;PlainLiteral">Мажорно тризвучие</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#MinorMajorSeventhChord</IRI>
+        <Literal xml:lang="bg" datatypeIRI="&rdf;PlainLiteral">Минорно-голямо четиризвучие</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#MinorSeventhChord</IRI>
+        <Literal xml:lang="bg" datatypeIRI="&rdf;PlainLiteral">Минорно-малко четиризвучие</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#MinorTriad</IRI>
+        <Literal xml:lang="bg" datatypeIRI="&rdf;PlainLiteral">Минорно тризвучие</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#MusicalTerm</IRI>
+        <Literal xml:lang="bg" datatypeIRI="&rdf;PlainLiteral">музикален термин</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Note</IRI>
+        <Literal xml:lang="bg" datatypeIRI="&rdf;PlainLiteral">Нота</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NoteValue</IRI>
+        <Literal xml:lang="bg" datatypeIRI="&rdf;PlainLiteral">Нотна стойност</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OctaveSegment</IRI>
+        <Literal xml:lang="bg" datatypeIRI="&rdf;PlainLiteral">Октавова група</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#PitchClassLabel</IRI>
+        <Literal xml:lang="bg" datatypeIRI="&rdf;PlainLiteral">Наименование на основна степен</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#PitchClassLabel</IRI>
+        <Literal xml:lang="bg" datatypeIRI="&rdf;PlainLiteral">Основна степен</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Prime</IRI>
+        <Literal xml:lang="bg" datatypeIRI="&rdf;PlainLiteral">Прима</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Rest</IRI>
+        <Literal xml:lang="bg" datatypeIRI="&rdf;PlainLiteral">Пауза</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Second</IRI>
+        <Literal xml:lang="bg" datatypeIRI="&rdf;PlainLiteral">Секунда</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Seventh</IRI>
+        <Literal xml:lang="bg" datatypeIRI="&rdf;PlainLiteral">Септима</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SeventhChord</IRI>
+        <Literal xml:lang="bg" datatypeIRI="&rdf;PlainLiteral">Четиризвучие</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SimpleInterval</IRI>
+        <Literal xml:lang="bg" datatypeIRI="&rdf;PlainLiteral">Прост интервал</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Sixth</IRI>
+        <Literal xml:lang="bg" datatypeIRI="&rdf;PlainLiteral">Секста</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Third</IRI>
+        <Literal xml:lang="bg" datatypeIRI="&rdf;PlainLiteral">Терца</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Triad</IRI>
+        <Literal xml:lang="bg" datatypeIRI="&rdf;PlainLiteral">Тризвучие</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#contraOctave</IRI>
+        <Literal xml:lang="bg" datatypeIRI="&rdf;PlainLiteral">Контра октава</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#doubleWhole</IRI>
+        <Literal xml:lang="bg" datatypeIRI="&rdf;PlainLiteral">Бревис</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#eight</IRI>
+        <Literal xml:lang="bg" datatypeIRI="&rdf;PlainLiteral">Осмина</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#fiveLineOctave</IRI>
+        <Literal xml:lang="bg" datatypeIRI="&rdf;PlainLiteral">Пета октава</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#fourLineOctave</IRI>
+        <Literal xml:lang="bg" datatypeIRI="&rdf;PlainLiteral">Четвърта октава</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#greatOctave</IRI>
+        <Literal xml:lang="bg" datatypeIRI="&rdf;PlainLiteral">Голяма октава</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#half</IRI>
+        <Literal xml:lang="bg" datatypeIRI="&rdf;PlainLiteral">Половина</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#hasNoteValue</IRI>
+        <Literal xml:lang="bg" datatypeIRI="&rdf;PlainLiteral">има нотна стойност</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#hundredTwentyEighth</IRI>
+        <Literal xml:lang="bg" datatypeIRI="&rdf;PlainLiteral">Стодвадесетиосмина</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#oneLineOctave</IRI>
+        <Literal xml:lang="bg" datatypeIRI="&rdf;PlainLiteral">Първа октава</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#quarter</IRI>
+        <Literal xml:lang="bg" datatypeIRI="&rdf;PlainLiteral">Четвъртина</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#sixteenth</IRI>
+        <Literal xml:lang="bg" datatypeIRI="&rdf;PlainLiteral">Шестнадесетина</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#sixtyFourth</IRI>
+        <Literal xml:lang="bg" datatypeIRI="&rdf;PlainLiteral">Шестдесетичетвъртина</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#smallOctave</IRI>
+        <Literal xml:lang="bg" datatypeIRI="&rdf;PlainLiteral">Малка октава</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#subContraOctave</IRI>
+        <Literal xml:lang="bg" datatypeIRI="&rdf;PlainLiteral">Субконтра октава</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#thirtySecond</IRI>
+        <Literal xml:lang="bg" datatypeIRI="&rdf;PlainLiteral">Тридесетивторина</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#threeLineOctave</IRI>
+        <Literal xml:lang="bg" datatypeIRI="&rdf;PlainLiteral">Трета октава</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#twoLineOctave</IRI>
+        <Literal xml:lang="bg" datatypeIRI="&rdf;PlainLiteral">Втора октава</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#whole</IRI>
+        <Literal xml:lang="bg" datatypeIRI="&rdf;PlainLiteral">Цяла</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 3.4.2) http://owlapi.sourceforge.net -->
+
